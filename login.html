@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mlr instituite.</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="style.css" type="text/css" rel="Stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/d6b57f948d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="index.html"><img src="./logo_V4.jpg" alt="MLRIT" height="50px" width="200px"></a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="#" class="index.html">Home</a></li>
+                        <li><a href="login.html">login</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#how-it-works">Start learning</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+        <section id="contact">
+            <div class="container">
+                <h2>-- Login -- </h2>
+
+                <div class="flex">
+                    <div id="form-container">
+                        <h3>login to know your performance-</h3>
+                        <form>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" />
+
+                            <label for="email">Email</label>
+                            <input type="text" id="email" />
+
+                            <label for="subject">password</label>
+                            <input type="password" id="subject" />
+
+                            <button class="rounded">Login</button>
+                        </form>
+                    </div>
+
+                    <div id="address-container">
+                        <label>Address</label>
+                        <address>
+                            Dundigal Police Station Road,
+                            Hyderabad – 500 043, Telangana, India.
+                        </address>
+
+                        <label>Phone</label>
+                        <a href="#">+91 9652226061</a>
+
+                        <label>Email Address</label>
+                        <a href="#">mlrinstitutions@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="container">
+                <h2>enter the details</h2>
+
+                <div class="flex">
+                    <div id="form-container">
+                        <h3>your performance-</h3>
+                        <form action="/precict" method="post">
+                            <label for="name">1st sem marks</label>
+                            <input type="text" id="name" class="validate"/>
+
+                            <label for="email">2nd sem marks</label>
+                            <input type="text" id="email" class="valisate"/>
+
+                            <label for="subject">3rd sem marks</label>
+                            <input type="text" id="subject"  class="validate"/>
+
+                            <label for="subject">4th sem marks</label>
+                            <input type="text" id="subject" class="validte" />
+
+                            <label for="subject">gender</label>
+                            <input type="text" id="subject" class="validte" />
+
+                            <button class="rounded">submit</button>
+                        </form>
+                        <div>
+                            <br><h4 align="center"><b>{{pred}}</b></h4>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="flex container">
+                <div class="footer-about">
+                    <h5>About MLR</h5>
+                    <p>MLR Institute of Technology is known for its integrated curriculum with equal importance to
+                        academics,
+                        employable skills & sports. MLR Institute of Technology (MLRIT) is located at Dundigal,
+                        Hyderabad,
+                        Telangana, India.
+                        The institution was started in 2005 by the KMR Education Trust, headed by Mr. Marri Laxman
+                        Reddy.
+                        The Institute has
+                        Eleven UG courses along with Five PG Courses. The Institute is affiliated with Jawaharlal Nehru
+                        Technological University,
+                        Hyderabad (JNTUH). It was granted Autonomous status by University Grants Commission (India) in
+                        the
+                        year 2015.p>
+                </div>
+
+                <div class="footer-quick-links">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-subscribe">
+                    <h5>Mail us for enquiries</h5>
+                    <div id="subscribe-container">
+                        <input type="text" placeholder="Enter Email" />
+                        <button class="right-rounded">Send</button>
+                    </div>
+
+                    <h5 class="follow-us">Follow Us</h5>
+                    <ul>
+                        <li><a href="https://www.facebook.com/Mlrit/"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://twitter.com/mlritin"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="https://www.instagram.com/kids.code.in/"><span class="fab fa-instagram"></span></a>
+                        </li>
+                        <li><a
+                                href="https://www.linkedin.com/company/mlrit-institute-of-technology-hyderabad?original_referer=https%3A%2F%2Fmlrit.ac.in%2F"><span
+                                    class="fab fa-linkedin-in"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <small>
+                Copyright &copy; 2022 All rights reserved | <span color="white">MLR team</span>
+            </small>
+        </footer>
+</body>
+
+</html>
